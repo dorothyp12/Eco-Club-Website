@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+body{
+    font-family: poppins;
+}
+
+
+/* Slider - Part */
+
+.slider{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* Talks - part */
+
+.container{
+    padding: 8em;
+}
+
+.from{
+    font-weight: 600;
+    font-size: 2.4vh;
+}
+
+
+/* Director's Talks */
+
+.container1{
+    display: flex;
+}
+
+.img1{
+    width: 80%;
+    border-radius: 30vh;
+    margin-left: -3vh;
+}
+
+.container1-right{
+    padding-top: 16vh;
+    color: #888888;
+    margin-left: -7vh;
+}
+
+
+#designation1{
+    margin-top: -1vh;
+    margin-left: 2em;
+    font-size: 2vh;
+    color: #888888;
+    font-weight: 300;
+
+
+}
+
+#designation{
+    margin-top: -1vh;
+    font-size: 2vh;
+    color: #888888;
+    font-weight: 300;
+
+}
+
+
+/* Dean's Talks */
+
+
+.container2{
+    display: flex;
+}
+
+.container2-left{
+    padding-top: 16vh;
+    color: #888888;
+    text-align: right;
+}
+
+.container2-right{
+    text-align: center;
+}
+
+.img2{
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+/* Faculty Advisor's Talks */
+
+.container3{
+    display: flex;
+}
+
+.container3-right{
+    padding-top: 16vh;
+    color: #888888;
+    margin-left: -7vh;
+}
+
