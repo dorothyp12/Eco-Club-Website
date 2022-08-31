@@ -1,0 +1,15 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    color: #43AB5F;
+    text-align: center;
+}
+.card-shadow {
+    border-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
