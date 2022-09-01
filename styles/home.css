@@ -8,10 +8,17 @@ h2 {
     font-size: 45px;
     color: #43AB5F;
     text-align: center;
+    position: relative;
+    margin-bottom: 4.5rem;
 }
 .card-shadow {
     border-width: 0;
-    box-shadow: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.25s cubic-bezier(.27,.49,.62,1.47);
+}
+
+.card-shadow:hover{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-indicators [data-bs-target]{
@@ -25,4 +32,19 @@ h2 {
 
 .carousel-indicators .active{
     background-color: white;
+}
+
+.container{
+    margin: 8rem auto;
+}
+
+h2::after{
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: aqua;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
 }
