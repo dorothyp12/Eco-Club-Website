@@ -48,6 +48,7 @@ p{
 }
 
 .container{
+    max-width: 85%;
     margin: 4rem auto;
 }
 
@@ -76,4 +77,18 @@ h2::after{
 .event-time {
     color: #555;
     margin-bottom: 8px;
+}
+i {
+    color: #888;
+    margin-right: 10px;
+}
+i.fa-clock {
+    margin-left: 10px;
+}
+.blog-continue {
+    text-decoration: none;
+    color: #888;
+}
+.blog-continue:hover {
+    color: #555;
 }
