@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;    
+}
+
+/* for 1st row of cards */
+
+.container1{
+    padding: 2em;    
+    text-align: center;
+}
+.card_s01{
+    display: flex;
+    justify-content: center;
+    padding:1em;
+}
+.card_s1{
+    display: flex;
+    justify-content: center;
+    padding:1em;
+}
+
+
+/* for 2nd row of cards */
+
+.container2{
+    padding: 2em;
+    text-align: center;
+}
+.card_s02{
+    display: flex;
+    justify-content: center;
+    padding:1em;
+}
+.card_s2{
+    display: flex;
+    justify-content: center;
+    padding:1em;
+}
+
+
+/* for 3rd row of cards */
+
+.container3{
+    padding: 2em;
+    text-align: center;
+}
+.card_s03{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.card_s3{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+
+/* overall styling */
+
+.Photos{
+    color: #43AB5F;
+    font-weight: 560;
+    font-size: 5vh;
+    padding: 1.5vh;
+}
+
+.card{
+    padding: .75em .75em .75em;
+    border-radius: 1.4em;
+    text-align: left;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    margin-inline: 1.4%;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.card-img-top{
+    border-radius: 5% 5% 0% 0%;
+}
+
+.line{
+    width: 90px;
+    background-color: #43AB5F;
+    height: 1.2px;
+}
+
+.card-text{
+    font-size: 2.8vh;
+    color: #333333;
+    flex-grow: 0;
+    align-self: stretch;
+}
