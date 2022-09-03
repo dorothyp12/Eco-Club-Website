@@ -23,3 +23,7 @@ img{
     border-radius: 6%;
     padding: 2.5%;
 }
+
+.container{
+    align-items: center;
+}
